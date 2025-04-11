@@ -11,10 +11,9 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 30px 40px 10px;
-    background-color: transparent;
     border-bottom: 1px solid #ddd;
 }
 
@@ -23,8 +22,7 @@ body {
     font-weight: 800;
     color: #333;
     text-align: center;
-    margin: 0 auto;
-}
+    margin-bottom: 20px;
 }
 
 .botoes-cadastro {
