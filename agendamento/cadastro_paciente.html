@@ -33,11 +33,8 @@
         const form = document.getElementById('form-paciente');
 
         form.addEventListener('submit', function(e) {
-            e.preventDefault(); // Evita envio padrão
+            e.preventDefault();
 
-            // Aqui você poderia salvar os dados com fetch/localStorage, etc.
-
-            // Redireciona para a página de agendamento
             window.location.href = "/agendamento/agendamento.html";
         });
     </script>
