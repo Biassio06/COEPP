@@ -10,22 +10,27 @@ body {
 }
 
 .cabecalho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 40px 10px;
+    position: relative;
+    height: 100px;
     border-bottom: 1px solid #ddd;
+    background-color: transparent;
 }
 
 .titulo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     font-size: 36px;
     font-weight: 800;
     color: #333;
-    text-align: center;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .botoes-cadastro {
+    position: absolute;
+    right: 40px;
+    top: 30px;
     display: flex;
     gap: 15px;
 }
